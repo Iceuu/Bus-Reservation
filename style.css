@@ -128,8 +128,8 @@ input {
 #bookingSec {
     background-image: url("https://static.abhibus.com/img/citypage/bg-new.png");
     background-position: center;
-    min-height: 700px;
-    margin-top: -50px;
+    min-height: 300px;
+    margin-top: -20px;
 
     /* background-size: 80rem;
     height: 70vh; */
