@@ -126,13 +126,12 @@ input {
 
 /* booking page */
 #bookingSec {
-    background-image: url("https://static.abhibus.com/img/citypage/bg-new.png");
+    background-image: url("image/bus.png");
+    height: 50vh;
+    width: 100%;
     background-position: center;
-    min-height: 400px;
-    margin-top: -20px;
-
-    /* background-size: 80rem;
-    height: 70vh; */
+    background-repeat: no-repeat;
+    background-size: 100rem;
 }
 
 .bookHead {
@@ -815,17 +814,18 @@ input[type="checkbox"] {
 @media only screen and (max-width: 600px) {
 
     #bookingSec {
-        background-image: url("https://static.abhibus.com/img/citypage/bg-new.png");
+        background-image: url("image/bus.png");
+        height: 60vh;
+        width: 120%;
         background-position: center;
-        min-height: 350px;
-        margin-top: -20px;
-        width: 110%;
+        background-repeat: no-repeat;
+        background-size: 90rem;
     }
 
     .from-to-date {
         display: flex;
         justify-content: center;
-        margin-left: -35px;
+        margin-left: -25px;
     }
 
     #from {
