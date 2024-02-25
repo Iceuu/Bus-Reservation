@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'); */
 
 
 * {
@@ -132,6 +132,7 @@ input {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100rem;
+
 }
 
 .bookHead {
@@ -346,12 +347,10 @@ option:not(:first-of-type) {
 
 /* paymennt page */
 
-
-
 #payDiv {
     /* background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114)); */
     background: linear-gradient(98.3deg, rgb(77, 77, 77) 10.6%, rgb(255, 0, 0) 97.7%);
-    height: 150vh;
+    height: 135vh;
     width: 100%;
     border-style: solid;
     border-width: 1px;
@@ -815,11 +814,11 @@ input[type="checkbox"] {
 
     #bookingSec {
         background-image: url("image/bus.png");
-        height: 60vh;
-        width: 120%;
+        height: 70vh;
+        width: 110%;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 90rem;
+        background-size: 120rem;
         margin-top: -7px;
     }
 
@@ -892,7 +891,7 @@ input[type="checkbox"] {
 
     #payDiv {
         background: linear-gradient(98.3deg, rgb(77, 77, 77) 10.6%, rgb(255, 0, 0) 97.7%);
-        height: 200vh;
+        height: 150vh;
         width: 110%;
         border-style: solid;
         border-width: 1px;
